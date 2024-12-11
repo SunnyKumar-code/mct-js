@@ -43,6 +43,16 @@
 
 // }
 // console.log(res);
+// let result = "";
+
+// for(let i = 0 ; i<str.length;i++){
+//     count = 0;
+//     for(let j = 0 ; j<str.length;j++){
+//         if(str.charAt(i)===str.charAt(j))count++;
+//     }
+//     if(count>=1 && str.charAt(i)!=" " && !result.includes(str.charAt(i)))result+=str.charAt(i);
+// }
+// console.log(result)
 
 
 // dumru pattran
