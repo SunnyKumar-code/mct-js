@@ -31,7 +31,6 @@ img {
     top: 50%;
     transform: translateY(-50%);
     background-color: #fff;
-    border: none;
     border-radius: 50%;
     cursor: pointer;
     padding: 10px;
