@@ -21,7 +21,9 @@ input,select{
     width: 200px;
 }
 .toster-container{
-  padding: 5px;
+    display: none;;
+    gap :10px;
+  
 }
 .left-top{
     position: fixed;
@@ -42,4 +44,8 @@ input,select{
     position: fixed;
     right: 10px;
     bottom: 10px;
+}
+#crose{
+    color: red;
+    cursor: pointer;
 }
