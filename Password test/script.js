@@ -1,5 +1,4 @@
 
-
 let password = document.querySelector("#password");
 let upper = document.querySelector('#upper')
 let lower = document.querySelector('#lower')
@@ -17,8 +16,6 @@ password.addEventListener("input",(e)=>{
   const hasUpperCase = /[A-Z]/.test(inputValue);
   const hasSymbol = /[^a-zA-Z0-9]/.test(inputValue);
   const hasNumber = /\d/.test(inputValue);
-
-
   let strengthScore = 0 ;
  
   if(hasLowerCase){
