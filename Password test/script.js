@@ -8,7 +8,6 @@ let colorDiv = document.querySelector('.color')
 let numLength = document.querySelector('#num')
 let strength = document.querySelector("#st");
 
-
 password.addEventListener("input",(e)=>{
   let inputValue = e.target.value;
   numLength.innerHTML = inputValue.length;
@@ -17,7 +16,6 @@ password.addEventListener("input",(e)=>{
   const hasSymbol = /[^a-zA-Z0-9]/.test(inputValue);
   const hasNumber = /\d/.test(inputValue);
   let strengthScore = 0 ;
- 
   if(hasLowerCase){
     lower.style.color="green";
     strengthScore++;
@@ -47,7 +45,7 @@ password.addEventListener("input",(e)=>{
 
  if(strengthScore>=5){
     colorDiv.style.backgroundColor="green";
-    strength.innerHTML="Head"
+    strength.innerHTML="Hard"
  }else if(strengthScore>=2){
     colorDiv.style.backgroundColor="orange";
     strength.innerHTML="Medium"
