@@ -1,8 +1,6 @@
 let row =document.querySelector("#rows")
 let cols = document.querySelector("#cols")
 const table = document.querySelector("#table");
-  
-
 function makeTable(){
     let count = 1;
     table.innerHTML="";
@@ -15,8 +13,7 @@ function makeTable(){
         tableRow.appendChild(tableCols)
     }
     table.appendChild(tableRow)
-   }
-    
+   }   
 }
 row.addEventListener('change',makeTable);
 cols.addEventListener('change',makeTable);

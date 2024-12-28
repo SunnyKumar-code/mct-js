@@ -1,5 +1,4 @@
 const startBtn = document.querySelector('#startbtn');
-
 let rendomNumber = Math.floor(Math.random()*101);
 let input = document.querySelector("#guessNumber");
 let submit = document.querySelector('#submit');

@@ -1,8 +1,6 @@
 let todoItem = document.querySelector("#listItem");
 let edit = document.querySelectorAll(".edit");
-
 let maincontainer = document.querySelector(".container")
-
 todoItem.addEventListener("keydown",(e)=>{
     if(e.key==="Enter"){
         let list = document.createElement("p");
@@ -28,7 +26,6 @@ maincontainer.addEventListener("click",(e)=>{
   saveButton.textContent="save"
   saveButton.classList.add("save")
   parent.appendChild(saveButton)
-
     }
 })
 maincontainer.addEventListener("click", (e) => {

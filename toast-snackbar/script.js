@@ -6,7 +6,6 @@ let duration = document.querySelector("#duration");
 let durOut = document.querySelector("#duration-output");
 let tosterDiv = document.querySelector(".toster-container");
 let submit = document.querySelector(".btn");
-
 submit.addEventListener("click", () => {
     tosterDiv.className = `${side2.value}-${side.value}`;
     let message = mass.value.trim();
@@ -53,7 +52,6 @@ submit.addEventListener("click", () => {
             tosterDiv.style.border="1px solid blue"
             break;
     }
-
     document.querySelector("#crose").addEventListener("click", () => {
         tosterDiv.style.display="none";
     });

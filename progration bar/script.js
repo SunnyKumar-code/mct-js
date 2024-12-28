@@ -2,7 +2,6 @@ let progressBar = document.getElementById("progress-bar")
 let start = document.getElementById("start")
 let stop = document.getElementById("stop")
 let reset = document.getElementById("reset");
-
 let interval;
 let width = 0;
 start.addEventListener("click",()=>{

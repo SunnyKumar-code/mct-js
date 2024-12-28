@@ -2,30 +2,25 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
-
 .carousel-container {
     position: relative;
     width: 300px;
     margin: auto;
     overflow: hidden;
 }
-
 .carousel {
     display: flex;
   
 }
-
 .carousel-item {
     min-width: 100%;
     box-sizing: border-box;
 }
-
 img {
     width: 200px;
     height: 200px;
     border-radius: 8px;
 }
-
 .btn {
     position: absolute;
     top: 50%;
@@ -36,25 +31,20 @@ img {
     padding: 10px;
     z-index: 10;
 }
-
 .prev {
     left: 10px;
 }
-
 .next {
     right: 10px;
 }
-
 .controls {
     margin-top: 20px;
 }
-
 .dots {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
-
 .dot {
     width: 10px;
     height: 10px;
@@ -64,7 +54,6 @@ img {
     display: inline-block;
     cursor: pointer;
 }
-
 .dot.active {
     background-color: blue;
 }

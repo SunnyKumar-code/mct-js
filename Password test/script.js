@@ -1,4 +1,3 @@
-
 let password = document.querySelector("#password");
 let upper = document.querySelector('#upper')
 let lower = document.querySelector('#lower')
@@ -7,7 +6,6 @@ let number = document.querySelector('#number')
 let colorDiv = document.querySelector('.color')
 let numLength = document.querySelector('#num')
 let strength = document.querySelector("#st");
-
 password.addEventListener("input",(e)=>{
   let inputValue = e.target.value;
   numLength.innerHTML = inputValue.length;
@@ -40,7 +38,6 @@ password.addEventListener("input",(e)=>{
   }else{
     number.style.color="gray";
   }
-
  if(inputValue.length>8)strengthScore++;
 
  if(strengthScore>=5){
@@ -56,7 +53,5 @@ password.addEventListener("input",(e)=>{
     colorDiv.style.backgroundColor = "gray";
     strength.innerHTML = "Weak";
 }
- 
 colorDiv.style.width = (strengthScore * 20) + "%";
-
 })
